@@ -1,0 +1,11 @@
+md5: d998dd835fdd056c0afa576a99ffc091
+locked: true
+deps:
+- etag: '"b3dbb1ce-59d8ac5594cef"'
+  path: http://archive.luftdaten.info/csv_per_month/2019-12/2019-12_sds011.zip
+outs:
+- md5: da71fb4997d9065d11f25cc09cd51fdf
+  path: 2019-12_sds011.zip
+  cache: true
+  metric: false
+  persist: false

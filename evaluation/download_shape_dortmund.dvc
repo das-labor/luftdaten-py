@@ -1,0 +1,17 @@
+md5: 2845c4f84c58326f5f6df2689805afe3
+cmd: python evaluation/scripts/download_shape.py 059130000000 data/dortmund.wkb data/dortmund.bounds
+wdir: ..
+deps:
+- md5: 702ae5300110ce05bda515f9ae31ce63
+  path: evaluation/scripts/download_shape.py
+outs:
+- md5: 98348f506e3eb77abd060fb361bb7849
+  path: data/dortmund.wkb
+  cache: true
+  metric: false
+  persist: false
+- md5: 41ceb84b1f8e10e1e4f0024b9524e2cb
+  path: data/dortmund.bounds
+  cache: true
+  metric: false
+  persist: false
