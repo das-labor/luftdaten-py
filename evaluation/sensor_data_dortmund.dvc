@@ -1,9 +1,9 @@
-md5: fec81258c1d23ff21586b8e94f83ddae
-cmd: evaluation/scripts/geo_filter_zip2csv.py data/2019-12_sds011.zip data/sensor_2019-12_dortmund.csv
-  data/dortmund.bounds
+md5: 2411b5d4bc6352b4712692cf5508b560
+cmd: evaluation/scripts/pypy3_or_python evaluation/scripts/geo_filter_zip2csv.py data/2019-12_sds011.zip
+  data/sensor_2019-12_dortmund.csv data/dortmund.bounds
 wdir: ..
 deps:
-- md5: 5a9c309044e98e910b4fb366eed46c6d
+- md5: 8ee98c6b30237fdd3dd1450e7fd32580
   path: evaluation/scripts/geo_filter_zip2csv.py
 - md5: 9e82c8c1c9a0a42121d26d05f3c6a7a9
   path: data/2019-12_sds011.zip
