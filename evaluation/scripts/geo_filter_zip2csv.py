@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 import zipfile
 import os
@@ -6,8 +7,8 @@ import os
 #import shapely.wkb
 
 input_name, output_name, boundsfile_name = sys.argv[1:]
-def process():
 
+def process():
    #with open(shapefile_name, 'rb') as shapefile:
    #    shape = shapely.wkb.loads(shapefile.read())
    #    bounds = shape.bounds

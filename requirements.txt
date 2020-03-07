@@ -21,6 +21,7 @@ inflect==3.0.2
 jsonpath-ng==1.4.3
 nanotime==0.5.2
 networkx==2.3
+osm2geojson==0.1.17
 packaging==20.1
 pathspec==0.7.0
 ply==3.11
@@ -32,6 +33,7 @@ PyYAML==5.1.2
 requests==2.23.0
 ruamel.yaml==0.16.10
 ruamel.yaml.clib==0.2.0
+Shapely==1.7.0
 shortuuid==0.5.0
 six==1.14.0
 smmap==3.0.1
